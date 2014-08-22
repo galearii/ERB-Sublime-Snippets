@@ -13,18 +13,23 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets useful for 
   </tr>
   <tr>
     <td>lt</td>
-    <td>&lt;%= link_to ..., ... %></td>
-    <td>&lt;%= link_to(..., ...) %></td>
+    <td>&lt;%= link_to $1, $2 %></td>
+    <td>&lt;%= link_to("$1", $2) %></td>
+  </tr>
+  <tr>
+    <td>ltd</td>
+    <td>None</td>
+    <td>&lt;%= link_to("$1", $2, <br> method: :delete, data: { confirm: "Are you sure?" } ) %></td>
   </tr>
   <tr>
     <td>form</td>
-    <td>&lt;%= form_for(@ ) do |f| %> <br> ... <br>&lt;% end %></td>
-    <td>&lt;%= simple_form_for(@ ) do |f| %> <br> ... <br> &lt;% end %></td>
+    <td>&lt;%= form_for(@$1 ) do |f| %> <br> $2 <br>&lt;% end %></td>
+    <td>&lt;%= simple_form_for(@$1 ) do |f| %> <br> $2 <br> &lt;% end %></td>
   </tr>
   <tr>
     <td>fp</td>
     <td>None</td>
-    <td>&lt;%= f.input ... %></td>
+    <td>&lt;%= f.input $1 %></td>
   </tr>
 </table>
 
