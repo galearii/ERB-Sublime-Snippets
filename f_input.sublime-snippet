@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<%= f.input $1 %>]]></content>
+  <tabTrigger>fp</tabTrigger>
+  <scope>text.html.ruby</scope>
+  <description>insert a rails simple_form input field</description>
+</snippet>
