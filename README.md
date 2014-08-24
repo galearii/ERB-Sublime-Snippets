@@ -44,6 +44,8 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets useful for 
   </tr>
 </table>
 
+![sample](sample.png)
+
 ##Installation
 
 These snippets can now be installed via [Sublime Package Control](http://wbond.net/sublime_packages/package_control). If you do not use package control, simply checkout the source code into Sublime Text's packages directory. The location is system specific:
