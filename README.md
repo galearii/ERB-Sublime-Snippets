@@ -31,6 +31,17 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets useful for 
     <td>None</td>
     <td>&lt;%= f.input $1 %></td>
   </tr>
+  <tr>
+    <td>each</td>
+    <td>&lt;% @$1.each do |$2| %> <br>
+        &lt;% end %></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>pct</td>
+    <td>None</td>
+    <td>&lt;%# TODO : $1 %></td>
+  </tr>
 </table>
 
 ##Installation
