@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<%= link_to(${1:root}_path, class: "${2:btn btn-primary}") do %>
+  <i class="${3:icon}"></i> $0
+<% end %>
+]]></content>
+	<tabTrigger>lti</tabTrigger>
+	<scope>text.html.ruby</scope>
+	<description>link_to with icon</description>
+</snippet>

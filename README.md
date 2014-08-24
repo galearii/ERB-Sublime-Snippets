@@ -42,6 +42,14 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets useful for 
     <td>None</td>
     <td>&lt;%# TODO : $1 %></td>
   </tr>
+  <tr>
+    <td>lti</td>
+    <td>None</td>
+    <td>&lt;%= link_to(${1:root}_path, class: "${2:btn btn-primary}") do %> <br
+          &lt;i class="${3:icon}">&lt;/i> $0 <br
+          &lt;% end %>
+    </td>
+  </tr>
 </table>
 
 ![sample](sample.png)
