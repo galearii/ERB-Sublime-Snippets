@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+p "debug ==="
+p $0
+]]></content>
+	<tabTrigger>dbug</tabTrigger>
+  <scope>source.ruby</scope>
+  <scope>text.html.ruby</scope>
+	<description>Debug block tag</description>
+</snippet>
